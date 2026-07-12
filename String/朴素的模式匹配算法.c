@@ -47,7 +47,7 @@ int Index1(String S, String T, int pos)
 int Index2(String S, String T, int pos)
 {
 	int i = pos;
-	int j= 1;
+	int j = 1;
 	while (i <= S[0] && j <= T[0])
 	{
 		if (S[i] == T[j])
